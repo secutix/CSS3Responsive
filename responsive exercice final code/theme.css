@@ -1,0 +1,122 @@
+body {
+    background-image: url('images/bg.jpg');
+    min-width: 320px;
+}
+
+#page_content {
+    width: 1110px;
+    margin: auto;
+}
+
+#content,
+header,
+footer {
+    margin-bottom: 1em;
+}
+
+#content,
+header,
+footer {
+    background-color: #efece8;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+header ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline-block;
+    padding: 0.5em 2em;
+    background-color: white;
+    margin-right: 1em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+header li:last-child {
+    margin-right: 0;
+}
+
+header li a {
+    color: black;
+}
+
+#images_container {
+    display: inline-block;
+}
+
+#history {
+    width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer {
+    text-align: center;
+}
+
+.title {
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width: 1120px) {
+    #page_content {
+        width: 100%;
+        padding: 0.5em;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    header ul {
+        text-align: center;
+    }
+
+    header li {
+        margin-bottom: 0.5em;
+    }
+
+    #history {
+        width: 100%;
+        padding-top: 1em;
+    }
+
+    #img1 {
+        margin-right: 5%;
+    }
+
+    #images_container {
+        display: block;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 655px) {
+    #img1 {
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 552px) {
+    #logo {
+        width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 500px) {
+    header li {
+        margin-right: 0;
+        display: block;
+    }
+}
+@media only screen and (max-width: 434px) {
+    #img1 {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+}
